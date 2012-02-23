@@ -1,3 +1,7 @@
+######
+TODO
+######
+
 how it works
 ============
 
@@ -11,10 +15,10 @@ Also, they log (w/ timestamp) different actions:
     * raw technical information
 
 callbacks
----------
+=========
 
 plugin
-~~~~~~
+-------
 
     * `button_name(locale=IGNORED)` // locale is ignored in first versions
     * several `info()`, `tooltip()`, whatever
@@ -25,19 +29,19 @@ plugin
 later on, the plugin may come with fields (that come with type, default values and validation)
 
 host app
-~~~~~~~~
+--------
 
    * dynamic `done()`, that is handled to the plugin when started
    * `*_msg(...)` where * is a message type (no so sure)
 
 info transmission
------------------
+==================
 
-save file
-~~~~~~~~~
+save to file
+---------
 
 send mail
-~~~~~~~~~
+---------
 
 send to server
-~~~~~~~~~~~~~~
+--------------
